@@ -1,0 +1,45 @@
+#header {
+  margin-bottom: 32px; /* Отступ снизу для шапки */
+  text-align: center; /* Выравнивание текста шапки */
+}
+
+h1, h2, h3, #main {
+  font-weight: 400; /* Указание веса шрифта всех заголовков */
+}
+
+h1 {
+  font-size: 36px; /* Размер шрифта первого заголовка */
+  padding-bottom: 0px; /* Отступ снизу первого заголовка */
+}
+
+h2 {
+  font-size: 32px; /* Размер шрифта второго заголовка */
+  border-bottom-style: solid; /* Отображаемый вид границы второго заголовка */
+  border-bottom: 1px; /* Размер нижней границы второго заголовка */
+  border-color: grey; /* Цвет границы */
+  padding-bottom: 8px; /* Отступ снизу второго заголовка */
+}
+
+h3 {
+  font-size: 20px; /* Размер шрифта третьего заголовка */
+  padding-bottom: 8px; /* Отступ снизу третьего заголовка */
+}
+
+p {
+  margin-bottom: 12px; /* Отступ снизу каждого абзаца */
+}
+
+body {
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }  
+
+  #footer {
+    margin-top: 64px; /* Отступ сверху для нижнего колонтитула */
+    text-align: center; /* Выравнивание текста нижнего колонтитула */
+  }
